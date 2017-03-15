@@ -11,7 +11,7 @@ library(dplyr)
 ds <- d %>%
   select(Age, Gender, Diabetes, BMI, HHIncome, PhysActive)
 
-# change ds back to a regular
+# change ds back to a regular table
 # data.frame object since rattle
 # doesn't handle the updated tbl_df format
 # created using the dplyr functions
